@@ -1,0 +1,26 @@
+{
+  "name": "ag-grid-happy-dom",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "ag-grid-community": "^28.0.2",
+    "ag-grid-vue3": "^28.0.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "happy-dom": "^6.0.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vitest": "^0.20.2",
+    "vue-tsc": "^0.38.4"
+  }
+}
